@@ -1,0 +1,9 @@
+
+<h1>Calculate Two Numbers Using AngularJS</h1>
+<input type="number"[(ngModel)]="first"><br><br>
+<input type="number"[(ngModel)]="second"><br><br>
+<input type="radio" name="op1" (click)="add()">+
+<input type="radio" name="op1" (click)="sub()">-
+<input type="radio" name="op1" (click)="mul()">*
+<input type="radio" name="op1" (click)="div()">/
+<p>{{first}} * {{second}} = {{result}}</p>
